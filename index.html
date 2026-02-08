@@ -2,6 +2,44 @@
 <!doctype html>
 <html lang="es">
   <head>
+    <!-- Font Awesome en el <head> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Botón flotante con animación pulse -->
+<a href="https://wa.me/523332715244" target="_blank" rel="noopener noreferrer" class="whatsapp-float">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<style>
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 28px;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  animation: pulse 2s infinite; /* animación continua */
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  background-color: #128C7E;
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+</style>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="favicon.svg" />
@@ -170,27 +208,42 @@
     </a>
   <div class="min-h-screen bg-zinc-900 text-zinc-200 font-mono">
   <!-- Navigation -->
-  <nav class="border-b border-zinc-700/50 p-4">
-    <div class="container mx-auto flex justify-between items-center">
-      <div class="flex items-center space-x-2">
-        <div class="text-3xl font-bold tracking-tighter text-red-600">ESCENOBEL</div>
-        <div class="text-xs uppercase tracking-widest text-zinc-500 border-l border-zinc-700 pl-2 ml-2">Realización escénica</div>
-      </div>
-      <div class="hidden md:flex space-x-8 text-sm uppercase tracking-wider">
-        <a href="#portfolio" class="hover:text-red-500 transition-colors">Creaciones</a>
-        <a href="#servicios" class="hover:text-red-500 transition-colors">Servicios</a>
-        <a href="#proceso" class="hover:text-red-500 transition-colors">Proceso</a>
-        <a href="#contacto" class="hover:text-red-500 transition-colors">Contacto</a>
-      </div>
-      <div class="md:hidden">
-        <button class="text-zinc-400 hover:text-zinc-200">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
+<nav class="border-b border-zinc-700/50 p-4">
+  <div class="container mx-auto flex justify-between items-center">
+    
+    <!-- Bloque de logo + textos -->
+    <div class="flex flex-col items-center">
+      <!-- Logo centrado -->
+      <img src="/img/logo.png" alt="Logo Escenobel" class="h-16 w-auto mb-2">
+      
+      <!-- Nombre ESCENOBEL -->
+      <div class="text-3xl font-bold tracking-tighter text-red-600">ESCENOBEL</div>
+      
+      <!-- Tagline Realización escénica -->
+      <div class="text-xs uppercase tracking-widest text-zinc-500 mt-1">
+        Realización escénica
       </div>
     </div>
-  </nav>
+
+    <!-- Menú de navegación -->
+    <div class="hidden md:flex space-x-8 text-sm uppercase tracking-wider">
+      <a href="#portfolio" class="hover:text-red-500 transition-colors">Creaciones</a>
+      <a href="#servicios" class="hover:text-red-500 transition-colors">Servicios</a>
+      <a href="#proceso" class="hover:text-red-500 transition-colors">Proceso</a>
+      <a href="#contacto" class="hover:text-red-500 transition-colors">Contacto</a>
+    </div>
+
+    <!-- Botón móvil -->
+    <div class="md:hidden">
+      <button class="text-zinc-400 hover:text-zinc-200">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
 
   <!-- Hero Section -->
   <section class="relative h-screen overflow-hidden">
@@ -295,59 +348,84 @@
   </section>
 
   <!-- Process Section -->
-  <section id="proceso" class="py-20 bg-zinc-900">
-    <div class="container mx-auto px-4">
-      <div class="flex flex-col md:flex-row items-center gap-12">
-        <div class="md:w-1/2">
-          <img src="https://preview.webstudio.ai/cgi/image/dev/7fd3b9f5bee29849601f87ae34fd341c02e4e002de31e4878f5d0fd9f7537588.png?width=1024&height=1024&format=auto" width="1024" height="1024" alt="Artisan crafting props" class="w-full h-auto object-cover border-[4px] border-zinc-800">
-        </div>
-        <div class="md:w-1/2">
-          <h2 class="text-4xl font-bold tracking-tighter mb-8">PROCESO <span class="text-red-600">CREATIVO</span></h2>
+<section id="proceso" class="py-20 bg-zinc-900">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-col md:flex-row items-center gap-12">
+      
+      <!-- Imagen -->
+      <div class="md:w-1/2">
+        <img src="/img/logo.png" 
+             alt="Logo Escenobel" 
+             class="w-full h-auto object-cover border-[4px] border-zinc-800">
+      </div>
+      
+      <!-- Texto -->
+      <div class="md:w-1/2">
+        <h2 class="text-4xl font-bold tracking-tighter mb-8">
+          PROCESO <span class="text-red-600">CREATIVO</span>
+        </h2>
+        
+        <!-- Contenedor de pasos -->
+        <div class="space-y-6">
           
-          <div class="space-y-6">
-            <div class="flex items-start gap-4">
-              <div class="w-10 h-10 flex items-center justify-center bg-zinc-800 text-red-600 flex-shrink-0 mt-1">
-                <span class="font-bold">01</span>
-              </div>
-              <div>
-                <h3 class="text-xl font-bold mb-2 uppercase">Conceptualización</h3>
-                <p class="text-zinc-400">Analizamos tus necesidades, investigamos referencias históricas y contemporáneas, y desarrollamos conceptos visuales iniciales.</p>
-              </div>
+          <!-- Paso 01 -->
+          <div class="flex items-start gap-4">
+            <div class="w-10 h-10 flex items-center justify-center bg-zinc-800 text-red-600 flex-shrink-0 mt-1 rounded">
+              <span class="font-bold">01</span>
             </div>
-            
-            <div class="flex items-start gap-4">
-              <div class="w-10 h-10 flex items-center justify-center bg-zinc-800 text-red-600 flex-shrink-0 mt-1">
-                <span class="font-bold">02</span>
-              </div>
-              <div>
-                <h3 class="text-xl font-bold mb-2 uppercase">Diseño</h3>
-                <p class="text-zinc-400">Creamos bocetos detallados, maquetas a escala y visualizaciones 3D para definir cada aspecto del proyecto.</p>
-              </div>
-            </div>
-            
-            <div class="flex items-start gap-4">
-              <div class="w-10 h-10 flex items-center justify-center bg-zinc-800 text-red-600 flex-shrink-0 mt-1">
-                <span class="font-bold">03</span>
-              </div>
-              <div>
-                <h3 class="text-xl font-bold mb-2 uppercase">Fabricación</h3>
-                <p class="text-zinc-400">Nuestro taller especializado transforma los diseños en realidades tangibles, utilizando diversos materiales y técnicas artesanales.</p>
-              </div>
-            </div>
-            
-            <div class="flex items-start gap-4">
-              <div class="w-10 h-10 flex items-center justify-center bg-zinc-800 text-red-600 flex-shrink-0 mt-1">
-                <span class="font-bold">04</span>
-              </div>
-              <div>
-                <h3 class="text-xl font-bold mb-2 uppercase">Instalación</h3>
-                <p class="text-zinc-400">Montamos cada elemento en el espacio asignado, asegurando su funcionalidad, seguridad y coherencia con la visión creativa.</p>
-              </div>
+            <div>
+              <h3 class="text-xl font-bold mb-2 uppercase">Conceptualización</h3>
+              <p class="text-zinc-400">
+                Analizamos tus necesidades, investigamos referencias históricas y contemporáneas, y desarrollamos conceptos visuales iniciales.
+              </p>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+
+          <!-- Paso 02 -->
+          <div class="flex items-start gap-4">
+            <div class="w-10 h-10 flex items-center justify-center bg-zinc-800 text-red-600 flex-shrink-0 mt-1 rounded">
+              <span class="font-bold">02</span>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-2 uppercase">Diseño</h3>
+              <p class="text-zinc-400">
+                Creamos bocetos detallados, maquetas a escala y visualizaciones 3D para definir cada aspecto del proyecto.
+              </p>
+            </div>
+          </div>
+
+          <!-- Paso 03 -->
+          <div class="flex items-start gap-4">
+            <div class="w-10 h-10 flex items-center justify-center bg-zinc-800 text-red-600 flex-shrink-0 mt-1 rounded">
+              <span class="font-bold">03</span>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-2 uppercase">Fabricación</h3>
+              <p class="text-zinc-400">
+                Nuestro taller especializado transforma los diseños en realidades tangibles, utilizando diversos materiales y técnicas artesanales.
+              </p>
+            </div>
+          </div>
+
+          <!-- Paso 04 -->
+          <div class="flex items-start gap-4">
+            <div class="w-10 h-10 flex items-center justify-center bg-zinc-800 text-red-600 flex-shrink-0 mt-1 rounded">
+              <span class="font-bold">04</span>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-2 uppercase">Instalación</h3>
+              <p class="text-zinc-400">
+                Montamos cada elemento en el espacio asignado, asegurando su funcionalidad, seguridad y coherencia con la visión creativa.
+              </p>
+            </div>
+          </div>
+
+        </div> <!-- cierre de space-y-6 -->
+      </div> <!-- cierre de md:w-1/2 -->
+    </div> <!-- cierre de flex -->
+  </div> <!-- cierre de container -->
+</section>
+
   </section>
 
  <!-- Portfolio Section -->
@@ -457,7 +535,7 @@
               </div>
               <div>
                 <h3 class="text-lg font-bold mb-1">Ubicación</h3>
-                <p class="text-zinc-400">Taller ESCENOBEL<br>Calle Industrial 56, Zona Artística</p>
+                <p class="text-zinc-400">ESCENOBEL<br>Tlajomulco de Zúñiga, ZMG.</p>
               </div>
             </div>
             
@@ -491,6 +569,7 @@
               </div>
             </div>
           </div>
+          
           
             <div class="mt-8 flex space-x-4">
             <a href="https://www.facebook.com/escenobel" target="_blank" rel="noopener noreferrer" class="w-10 h-10 flex items-center justify-center bg-zinc-800 text-red-600 hover:bg-red-700 hover:text-white transition-all" aria-label="Facebook">
