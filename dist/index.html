@@ -1,0 +1,762 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Font Awesome en el <head> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Botón flotante con animación pulse -->
+<a href="https://wa.me/523332715244" target="_blank" rel="noopener noreferrer" class="whatsapp-float">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<style>
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 28px;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  animation: pulse 2s infinite; /* animación continua */
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  background-color: #128C7E;
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+</style>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/assets/favicon-DVU078Hq.svg" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+  /* Fondo y color de texto global */
+  body {
+    background-color: #000000; /* negro */
+    color: #c37eaa; /* rosa */
+    font-family: sans-serif; /* opcional */
+  }
+
+  /* Links */
+  a {
+    color: #c37eaa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  a:hover {
+    color: #ff77c0; /* rosa más brillante al pasar el mouse */
+  }
+
+  /* Encabezados */
+  h1, h2, h3, h4, h5, h6 {
+    color: #c37eaa;
+  }
+
+  /* Footer */
+  footer {
+    color: #c37eaa;
+    background-color: #000000;
+  }
+</style>
+
+    <style>
+      :root {
+        scrollbar-width: thin;
+        scrollbar-color: oklch(from oklch(34% 0.10793 320 / 0.7) 0.2 c h / 0.8)
+          transparent;
+        /* prevent back/forward navigation with trackpad */
+        overscroll-behavior-x: none;
+      }
+    </style>
+
+    <title>Escenobel</title>
+    <meta name="description" content="Creamos mundos escénicos para teatro, eventos y educación. Diseño, fabricación e instalación de escenografías y utilería." />
+    <meta name="theme-color" content="#000000" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Escenobel" />
+      <meta property="og:description" content="Creamos mundos escénicos para teatro, eventos y educación: diseño, fabricación e instalación." />
+      <meta property="og:image" content="/assets/fondo1-DrMwr1RF.jpg" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Escenobel" />
+      <meta name="twitter:description" content="Creamos mundos escénicos para teatro, eventos y educación: diseño, fabricación e instalación." />
+      <meta name="twitter:image" content="/assets/fondo1-DrMwr1RF.jpg" />
+      <script data-cfasync="false" nonce="dc2482ae-679b-4a77-9c92-5f670bb47a05">
+        if(location.hostname !== '127.0.0.1' && location.hostname !== 'localhost'){
+          try{(function(w,d){!function(j,k,l,m){if(j.zaraz)console.error("zaraz is loaded twice");else{j[l]=j[l]||{};j[l].executed=[];j.zaraz={deferred:[],listeners:[]};j.zaraz._v="5874";j.zaraz._n="dc2482ae-679b-4a77-9c92-5f670bb47a05";j.zaraz.q=[];j.zaraz._f=function(n){return async function(){var o=Array.prototype.slice.call(arguments);j.zaraz.q.push({m:n,a:o})}};for(const p of["track","set","debug"])j.zaraz[p]=j.zaraz._f(p);j.zaraz.init=()=>{var q=k.getElementsByTagName(m)[0],r=k.createElement(m),s=k.getElementsByTagName("title")[0];s&&(j[l].t=k.getElementsByTagName("title")[0].text);j[l].x=Math.random();j[l].w=j.screen.width;j[l].h=j.screen.height;j[l].j=j.innerHeight;j[l].e=j.innerWidth;j[l].l=j.location.href;j[l].r=k.referrer;j[l].k=j.screen.colorDepth;j[l].n=k.characterSet;j[l].o=(new Date).getTimezoneOffset();if(j.dataLayer)for(const t of Object.entries(Object.entries(dataLayer).reduce((u,v)=>({...u[1],...v[1]}),{})))zaraz.set(t[0],t[1],{scope:"page"});j[l].q=[];for(;j.zaraz.q.length;){const w=j.zaraz.q.shift();j[l].q.push(w)}r.defer=!0;for(const x of[localStorage,sessionStorage])Object.keys(x||{}).filter(z=>z.startsWith("_zaraz_")).forEach(y=>{try{j[l]["z_"+y.slice(7)]=JSON.parse(x.getItem(y))}catch{j[l]["z_"+y.slice(7)]=x.getItem(y)}});r.referrerPolicy="origin";r.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(j[l])));q.parentNode.insertBefore(r,q)};["complete","interactive"].includes(k.readyState)?zaraz.init():j.addEventListener("DOMContentLoaded",zaraz.init)}}(w,d,"zarazData","script");window.zaraz._p=async d$=>new Promise(ea=>{if(d$){d$.e&&d$.e.forEach(eb=>{try{const ec=d.querySelector("script[nonce]"),ed=ec?.nonce||ec?.getAttribute("nonce"),ee=d.createElement("script");ed&&(ee.nonce=ed);ee.innerHTML=eb;ee.onload=()=>{d.head.removeChild(ee)};d.head.appendChild(ee)}catch(ef){console.error(`Error executing script: ${eb}\n`,ef)}});Promise.allSettled((d$.f||[]).map(eg=>fetch(eg[0],eg[1])))}ea()});zaraz._p({"e":["(function(w,d){})(window,document)"]});})(window,document)}catch(e){try{fetch("/cdn-cgi/zaraz/t")}catch{};}
+        }
+      </script>
+          
+          <style>
+            
+  /* === Estilos globales Escenobel v2 === */
+
+  /* Fondo y texto general */
+  body {
+    background-color: #000000;    /* fondo negro */
+    color: #c37eaa;               /* texto principal rosa */
+    font-family: 'Montserrat', sans-serif; /* fuente consistente */
+    line-height: 1.6;
+  }
+
+  /* Links generales */
+  a, a:visited {
+    color: #c37eaa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  a:hover, a:focus {
+    color: #ff77c0; /* rosa más brillante al pasar el mouse */
+  }
+
+  /* Encabezados y títulos */
+  h1, h2, h3, h4, h5, h6 {
+    color: #c37eaa;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /* Textos secundarios, párrafos y listas */
+  p, li, span, div, label, input, button {
+    color: #c37eaa;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /* Botones y elementos interactivos */
+  button, input[type="submit"], .btn, .inline-block {
+    background-color: #000000;
+    border: 1px solid #c37eaa;
+    color: #c37eaa;
+    transition: all 0.3s ease;
+  }
+  button:hover, input[type="submit"]:hover, .btn:hover, .inline-block:hover {
+    background-color: #c37eaa;
+    color: #000000;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #000000;
+    color: #c37eaa;
+  }
+  footer a {
+    color: #c37eaa;
+  }
+  footer a:hover {
+    color: #ff77c0;
+  }
+
+  /* Portfolio hover */
+  .group {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .group:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.35);
+  }
+  .group img {
+    transition: transform 0.4s ease;
+  }
+  .group:hover img {
+    transform: scale(1.06);
+  }
+
+  /* Inputs y formularios */
+  input, textarea {
+    background-color: #000000;
+    color: #c37eaa;
+    border: 1px solid #c37eaa;
+  }
+  input::placeholder, textarea::placeholder {
+    color: #c37eaa;
+    opacity: 0.7;
+  }
+
+  /* Scrollbar personalizada */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #c37eaa;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #000000;
+  }
+</style>
+
+          </head>
+  <body id="inicio">
+    <a href="https://www.instagram.com/YanKayary" target="_blank" rel="noopener noreferrer" class="fixed bottom-4 right-20 z-40 [--control-bg:oklch(34%_0.10793_320_/0.7)] shrink-0 flex flex-nowrap items-center justify-center gap-1 overflow-clip cursor-pointer font-medium text-nowrap transition-all font-normal border-none before:absolute before:inset-0 before:opacity-0 before:transition-opacity before:duration-300 text-base px-6 h-10 rounded-[15px]"
+       style="background-color:#c37eaa;color:#000;"
+       onmouseover="this.style.backgroundColor='#000';this.style.color='#c37eaa';"
+       onmouseout="this.style.backgroundColor='#c37eaa';this.style.color='#000';">
+      Q/W productions
+    </a>
+  <div class="min-h-screen bg-zinc-900 text-zinc-200 font-mono">
+  <!-- Navigation -->
+<nav class="border-b border-zinc-700/50 p-4">
+  <div class="container mx-auto flex justify-between items-center">
+    
+    <!-- Bloque de logo + textos -->
+    <div class="flex flex-col items-center">
+      <!-- Logo centrado -->
+      <img src="/assets/logo-C6xnUiIr.png" alt="Logo Escenobel" class="h-16 w-auto mb-2">
+      
+      <!-- Nombre ESCENOBEL -->
+      <div class="text-3xl font-bold tracking-tighter text-red-600">ESCENOBEL</div>
+      
+      <!-- Tagline Realización escénica -->
+      <div class="text-xs uppercase tracking-widest text-zinc-500 mt-1">
+        Realización escénica
+      </div>
+    </div>
+
+    <!-- Menú de navegación -->
+    <div class="hidden md:flex space-x-8 text-sm uppercase tracking-wider">
+      <a href="#portfolio" class="hover:text-red-500 transition-colors">Creaciones</a>
+      <a href="#servicios" class="hover:text-red-500 transition-colors">Servicios</a>
+      <a href="#proceso" class="hover:text-red-500 transition-colors">Proceso</a>
+      <a href="#contacto" class="hover:text-red-500 transition-colors">Contacto</a>
+    </div>
+
+    <!-- Botón móvil -->
+    <div class="md:hidden">
+      <button class="text-zinc-400 hover:text-zinc-200">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Hero Section -->
+  <section class="relative h-screen overflow-hidden">
+    <div class="absolute inset-0 bg-black/40 z-10"></div>
+    <img src="https://preview.webstudio.ai/cgi/image/dev/a671b3f27add563af21c630946e0c2413057c2b91f2454db2329ad212a1e4e08.png?width=1344&height=768&format=auto" width="1344" height="768" alt="Theatrical post-apocalyptic stage" class="absolute inset-0 w-full h-full object-cover">
+    <div class="container mx-auto relative z-20 h-full flex flex-col justify-center px-4">
+      <div class="max-w-2xl space-y-6 ml-0 md:ml-12 transform translate-y-[-2rem]">
+        <h1 class="text-5xl md:text-7xl font-bold tracking-tighter text-zinc-100 leading-none">
+          <span class="block text-red-600">ESCENOBEL</span>
+          <span class="text-2xl md:text-4xl font-light tracking-wide block mt-2">🎭 MUNDOS ESCÉNICOS</span>
+        </h1>
+        <p class="text-lg md:text-xl text-zinc-300 max-w-xl">Creamos mundos para teatro, escuelas, eventos y producciones especiales. Donde la imaginación cobra vida en cada detalle.</p>
+        <div class="pt-4 flex flex-wrap gap-4">
+          <a href="#portfolio" class="px-8 py-3 bg-red-700/80 hover:bg-red-600 text-white uppercase tracking-wider text-sm border border-red-600/50 transition-all transform hover:translate-y-[-2px]">Nuestro Trabajo</a>
+          <a href="#contacto" class="px-8 py-3 bg-zinc-800/80 hover:bg-zinc-700 text-zinc-200 uppercase tracking-wider text-sm border border-zinc-600/50 transition-all transform hover:translate-y-[-2px]">Contactar</a>
+        </div>
+      </div>
+    </div>
+    <div class="absolute bottom-8 left-0 right-0 flex justify-center z-20 animate-bounce">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-zinc-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="servicios" class="py-20 bg-zinc-800/50 border-t border-b border-zinc-700/50">
+    <div class="container mx-auto px-4">
+      <div class="mb-16 text-center">
+        <h2 class="text-4xl font-bold tracking-tighter">CREAMOS <span class="text-red-600">MUNDOS</span></h2>
+        <p class="text-zinc-400 mt-4 max-w-2xl mx-auto">Diseñamos y fabricamos escenografías y utilería artística para todos tus proyectos creativos</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Service 1 -->
+        <div class="group bg-zinc-900/70 border border-zinc-700/50 p-6 hover:border-red-600/50 transition-all">
+          <div class="w-12 h-12 bg-red-700/30 text-red-500 flex items-center justify-center mb-4 group-hover:bg-red-700/50 transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2 uppercase tracking-wider">Teatro</h3>
+          <p class="text-zinc-400">Escenografías completas, piezas específicas y utilería especializada para producciones teatrales de cualquier escala.</p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="group bg-zinc-900/70 border border-zinc-700/50 p-6 hover:border-red-600/50 transition-all">
+          <div class="w-12 h-12 bg-red-700/30 text-red-500 flex items-center justify-center mb-4 group-hover:bg-red-700/50 transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2 uppercase tracking-wider">Eventos</h3>
+          <p class="text-zinc-400">Ambientes temáticos, instalaciones interactivas y elementos decorativos para eventos corporativos y privados.</p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="group bg-zinc-900/70 border border-zinc-700/50 p-6 hover:border-red-600/50 transition-all">
+          <div class="w-12 h-12 bg-red-700/30 text-red-500 flex items-center justify-center mb-4 group-hover:bg-red-700/50 transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2 uppercase tracking-wider">Producciones</h3>
+          <p class="text-zinc-400">Diseño y construcción de sets, utilería especial y efectos visuales para producciones audiovisuales.</p>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="group bg-zinc-900/70 border border-zinc-700/50 p-6 hover:border-red-600/50 transition-all">
+          <div class="w-12 h-12 bg-red-700/30 text-red-500 flex items-center justify-center mb-4 group-hover:bg-red-700/50 transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2 uppercase tracking-wider">Educación</h3>
+          <p class="text-zinc-400">Entornos didácticos, materiales interactivos y espacios temáticos para instituciones educativas.</p>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="group bg-zinc-900/70 border border-zinc-700/50 p-6 hover:border-red-600/50 transition-all">
+          <div class="w-12 h-12 bg-red-700/30 text-red-500 flex items-center justify-center mb-4 group-hover:bg-red-700/50 transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2 uppercase tracking-wider">Exposiciones</h3>
+          <p class="text-zinc-400">Montajes museográficos, stands y espacios expositivos con narrativas visuales impactantes.</p>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="group bg-zinc-900/70 border border-zinc-700/50 p-6 hover:border-red-600/50 transition-all">
+          <div class="w-12 h-12 bg-red-700/30 text-red-500 flex items-center justify-center mb-4 group-hover:bg-red-700/50 transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2 uppercase tracking-wider">Diseño Conceptual</h3>
+          <p class="text-zinc-400">Desarrollo de conceptos, maquetas y visualizaciones para futuros proyectos escénicos y espaciales.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+<section id="proceso" class="py-20 bg-zinc-900">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-col md:flex-row items-center gap-12">
+      
+      <!-- Imagen -->
+      <div class="md:w-1/2">
+        <img src="/assets/logo-C6xnUiIr.png" 
+             alt="Logo Escenobel" 
+             class="w-full h-auto object-cover border-[4px] border-zinc-800">
+      </div>
+      
+      <!-- Texto -->
+      <div class="md:w-1/2">
+        <h2 class="text-4xl font-bold tracking-tighter mb-8">
+          PROCESO <span class="text-red-600">CREATIVO</span>
+        </h2>
+        
+        <!-- Contenedor de pasos -->
+        <div class="space-y-6">
+          
+          <!-- Paso 01 -->
+          <div class="flex items-start gap-4">
+            <div class="w-10 h-10 flex items-center justify-center bg-zinc-800 text-red-600 flex-shrink-0 mt-1 rounded">
+              <span class="font-bold">01</span>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-2 uppercase">Conceptualización</h3>
+              <p class="text-zinc-400">
+                Analizamos tus necesidades, investigamos referencias históricas y contemporáneas, y desarrollamos conceptos visuales iniciales.
+              </p>
+            </div>
+          </div>
+
+          <!-- Paso 02 -->
+          <div class="flex items-start gap-4">
+            <div class="w-10 h-10 flex items-center justify-center bg-zinc-800 text-red-600 flex-shrink-0 mt-1 rounded">
+              <span class="font-bold">02</span>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-2 uppercase">Diseño</h3>
+              <p class="text-zinc-400">
+                Creamos bocetos detallados, maquetas a escala y visualizaciones 3D para definir cada aspecto del proyecto.
+              </p>
+            </div>
+          </div>
+
+          <!-- Paso 03 -->
+          <div class="flex items-start gap-4">
+            <div class="w-10 h-10 flex items-center justify-center bg-zinc-800 text-red-600 flex-shrink-0 mt-1 rounded">
+              <span class="font-bold">03</span>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-2 uppercase">Fabricación</h3>
+              <p class="text-zinc-400">
+                Nuestro taller especializado transforma los diseños en realidades tangibles, utilizando diversos materiales y técnicas artesanales.
+              </p>
+            </div>
+          </div>
+
+          <!-- Paso 04 -->
+          <div class="flex items-start gap-4">
+            <div class="w-10 h-10 flex items-center justify-center bg-zinc-800 text-red-600 flex-shrink-0 mt-1 rounded">
+              <span class="font-bold">04</span>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-2 uppercase">Instalación</h3>
+              <p class="text-zinc-400">
+                Montamos cada elemento en el espacio asignado, asegurando su funcionalidad, seguridad y coherencia con la visión creativa.
+              </p>
+            </div>
+          </div>
+
+        </div> <!-- cierre de space-y-6 -->
+      </div> <!-- cierre de md:w-1/2 -->
+    </div> <!-- cierre de flex -->
+  </div> <!-- cierre de container -->
+</section>
+
+  </section>
+
+ <!-- Portfolio Section -->
+<section id="portfolio" class="py-20 bg-zinc-800/50 border-t border-b border-zinc-700/50">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold tracking-tighter">NUESTRAS <span class="text-red-600">CREACIONES</span></h2>
+      <p class="text-zinc-400 mt-4 max-w-2xl mx-auto">Explora algunos de nuestros proyectos más destacados</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+      <!-- Portfolio Item 1 -->
+      <a href="https://www.facebook.com/share/p/1ApSbcmWu9/" target="_blank" rel="noopener noreferrer" class="block">
+        <div class="group relative overflow-hidden border border-zinc-700/50 hover:border-red-600/50 transition-all bg-zinc-900/70">
+          <img src="/assets/escenografia-escenobel-01-DU-OaWCM.jpg"
+            alt="Escenografía realizada por Escenobel"
+            width="1200" height="800"
+            class="w-full h-64 object-cover"
+            loading="lazy">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/0 opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-6 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+            <h3 class="text-xl font-bold mb-2">Pepita</h3>
+            <p class="text-zinc-300 text-sm">Colegio México Nuevo La Calma | 2025</p>
+          </div>
+        </div>
+      </a>
+
+      <!-- Portfolio Item 2 -->
+      <a href="https://www.facebook.com/share/p/1AWoSCbpzY/" target="_blank" rel="noopener noreferrer" class="block">
+        <div class="group relative overflow-hidden border border-zinc-700/50 hover:border-red-600/50 transition-all bg-zinc-900/70">
+          <img src="/assets/escenografia-escenobel-02-DCtjL1b6.jpg"
+            alt="Interior de base escenográfica en forma de corazón con rostro en amarillo fluorescente"
+            width="1200" height="800"
+            class="w-full h-64 object-cover"
+            loading="lazy">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/0 opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-6 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+            <h3 class="text-xl font-bold mb-2">Arráncame la vida</h3>
+            <p class="text-zinc-300 text-sm">
+              Interior de base escenográfica en forma de corazón con rostro en amarillo fluorescente.  
+              Altura final de 3 m. Producción de Guillermo Covarrubias, 2024.
+            </p>
+          </div>
+        </div>
+      </a>
+
+      <!-- Portfolio Item 4 (nuevo) -->
+      <a href="https://www.facebook.com/share/p/18BSJN2neF/" target="_blank" rel="noopener noreferrer" class="block">
+        <div class="group relative overflow-hidden border border-zinc-700/50 hover:border-red-600/50 transition-all bg-zinc-900/70">
+          <img src="/assets/escenografia-escenobel-04-C4hyLo6A.jpg"
+            alt="Corona de estrellas de foami de 2m de diámetro con fondo estrellado y luces de meteoro"
+            width="1200" height="800"
+            class="w-full h-64 object-cover"
+            loading="lazy">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/0 opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-6 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+            <h3 class="text-xl font-bold mb-2">CORONA DE ESTRELLAS</h3>
+            <p class="text-zinc-300 text-sm">
+              Escenografía navideña | Colegio México Nuevo La Calma | 2024
+            </p>
+          </div>
+        </div>
+      </a>
+
+      <!-- Portfolio Item 3 (abajo) -->
+      <a href="https://www.facebook.com/share/p/18BSJN2neF/" target="_blank" rel="noopener noreferrer" class="block lg:col-span-3">
+        <div class="group relative overflow-hidden border border-zinc-700/50 hover:border-red-600/50 transition-all bg-zinc-900/70">
+          <img src="/assets/escenografia-escenobel-03-DiLkJpGw.jpg"
+            alt="Serie de esculturas temáticas monumentales realizadas por Escenobel"
+            width="1200" height="800"
+            class="w-full h-64 object-cover"
+            loading="lazy">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/0 opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-6 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+            <h3 class="text-xl font-bold mb-2">Decoraciones Temáticas Monumentales</h3>
+            <p class="text-zinc-300 text-sm">
+              Serie de esculturas y ambientaciones de gran formato: catrinas, catrines y piezas festivas.  
+              Hule espuma y técnicas mixtas para celebraciones escolares. Colegio México Nuevo La Calma, 2022–2023.
+            </p>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+<section id="contacto" class="py-20 bg-zinc-900">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row gap-12">
+        <div class="md:w-1/2">
+          <h2 class="text-4xl font-bold tracking-tighter mb-4">HABLEMOS DE TU <span class="text-red-600">PROYECTO</span></h2>
+<p class="text-zinc-400 mb-8">Cuéntanos qué estás imaginando y te ayudamos a convertirlo en un mundo escénico real. Diseñamos, fabricamos e instalamos.</p>
+
+          <p class="text-sm text-zinc-500 mb-10">Respondemos mensajes en menos de 24 horas.</p>
+
+          <div class="space-y-6">
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 flex items-center justify-center bg-zinc-800 text-red-600 flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-lg font-bold mb-1">Ubicación</h3>
+                <p class="text-zinc-400">ESCENOBEL<br>Tlajomulco de Zúñiga, ZMG.</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 flex items-center justify-center bg-zinc-800 text-red-600 flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-lg font-bold mb-1">Email</h3>
+                <p class="text-zinc-400">
+  <a href="mailto:escenobel@hotmail.com" class="hover:text-red-500 transition-colors">escenobel@hotmail.com</a><br>
+  <a href="mailto:escenobel2024@gmail.com" class="hover:text-red-500 transition-colors">escenobel2024@gmail.com</a>
+</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 flex items-center justify-center bg-zinc-800 text-red-600 flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-lg font-bold mb-1">Teléfono - WhatsApp</h3>
+                <p class="text-zinc-400">
+                  <a href="tel:+523332715244" class="hover:text-red-500">+52 33 3271 5244</a><br>
+                  <a href="https://wa.me/523332715244" target="_blank" rel="noopener noreferrer" class="hover:text-red-500">Enviar WhatsApp</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          
+            <div class="mt-8 flex space-x-4">
+            <a href="https://www.facebook.com/escenobel" target="_blank" rel="noopener noreferrer" class="w-10 h-10 flex items-center justify-center bg-zinc-800 text-red-600 hover:bg-red-700 hover:text-white transition-all" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/escenobel" target="_blank" rel="noopener noreferrer" class="w-10 h-10 flex items-center justify-center bg-zinc-800 text-red-600 hover:bg-red-700 hover:text-white transition-all" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="md:w-1/2">
+          <form name="contact" method="POST" data-netlify="true" class="space-y-6">
+            <input type="hidden" name="form-name" value="contact">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label for="name" class="block text-sm font-medium text-zinc-400 mb-1">Nombre</label>
+                  <input type="text" id="name" name="name" class="w-full px-4 py-3 bg-zinc-800/50 border border-zinc-700 text-zinc-200 focus:border-red-600 focus:outline-none transition-all">
+                </div>
+              <div>
+                  <label for="email" class="block text-sm font-medium text-zinc-400 mb-1">Email</label>
+                  <input type="email" id="email" name="email" class="w-full px-4 py-3 bg-zinc-800/50 border border-zinc-700 text-zinc-200 focus:border-red-600 focus:outline-none transition-all">
+              </div>
+            </div>
+            
+            <div>
+              <label for="subject" class="block text-sm font-medium text-zinc-400 mb-1">Asunto</label>
+              <input type="text" id="subject" name="subject" class="w-full px-4 py-3 bg-zinc-800/50 border border-zinc-700 text-zinc-200 focus:border-red-600 focus:outline-none transition-all">
+            </div>
+            
+            <div>
+              <label for="message" class="block text-sm font-medium text-zinc-400 mb-1">Mensaje</label>
+              <textarea id="message" name="message" rows="5" class="w-full px-4 py-3 bg-zinc-800/50 border border-zinc-700 text-zinc-200 focus:border-red-600 focus:outline-none transition-all"></textarea>
+            </div>
+            
+            <div>
+              <button type="submit" class="w-full px-6 py-4 bg-red-700 hover:bg-red-600 text-white uppercase tracking-wider text-sm transition-all flex items-center justify-center">Enviar Mensaje
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-12 bg-black/80 border-t border-zinc-800/50">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+        <div class="space-y-4">
+          <div class="text-3xl font-bold tracking-tighter text-red-600">ESCENOBEL</div>
+          <p class="text-zinc-500">Creamos mundos para teatro, escuelas, eventos y producciones especiales.</p>
+          <div class="mt-4 flex items-center space-x-3">
+            <a href="https://www.facebook.com/escenobel" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="w-9 h-9 flex items-center justify-center bg-zinc-800 text-red-600 hover:bg-red-700 hover:text-white transition-all">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/escenobel" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="w-9 h-9 flex items-center justify-center bg-zinc-800 text-red-600 hover:bg-red-700 hover:text-white transition-all">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+          </div>
+        </div>
+        
+        <div>
+          <h4 class="text-lg font-bold mb-4 uppercase tracking-wider">Enlaces</h4>
+          <ul class="space-y-2">
+            <li><a href="#inicio" class="text-zinc-500 hover:text-red-500 transition-colors">Inicio</a></li>
+            <li><a href="#servicios" class="text-zinc-500 hover:text-red-500 transition-colors">Servicios</a></li>
+            <li><a href="#portfolio" class="text-zinc-500 hover:text-red-500 transition-colors">Proyectos</a></li>
+            <li><a href="#sobre" class="text-zinc-500 hover:text-red-500 transition-colors">Sobre Nosotros</a></li>
+            <li><a href="#contacto" class="text-zinc-500 hover:text-red-500 transition-colors">Contacto</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="text-lg font-bold mb-4 uppercase tracking-wider">Servicios</h4>
+          <ul class="space-y-2">
+            <li><a href="#servicios" class="text-zinc-500 hover:text-red-500 transition-colors">Teatro</a></li>
+            <li><a href="#servicios" class="text-zinc-500 hover:text-red-500 transition-colors">Eventos</a></li>
+            <li><a href="#servicios" class="text-zinc-500 hover:text-red-500 transition-colors">Producciones</a></li>
+            <li><a href="#servicios" class="text-zinc-500 hover:text-red-500 transition-colors">Educación</a></li>
+            <li><a href="#servicios" class="text-zinc-500 hover:text-red-500 transition-colors">Exposiciones</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="text-lg font-bold mb-4 uppercase tracking-wider">Legal</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-zinc-500 hover:text-red-500 transition-colors">Aviso Legal</a></li>
+            <li><a href="#" class="text-zinc-500 hover:text-red-500 transition-colors">Política de Privacidad</a></li>
+            <li><a href="#" class="text-zinc-500 hover:text-red-500 transition-colors">Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+      
+           <div class="mt-12 pt-8 border-t border-zinc-800/50 text-center text-zinc-500">
+        <p>&copy; 2023 ESCENOBEL. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sobre Nosotros (placeholder) -->
+  <section id="sobre" class="py-12 bg-zinc-900 border-t border-zinc-800/30">
+    <div class="container mx-auto px-4 text-zinc-400">
+      <h2 class="text-2xl font-bold mb-4">Sobre Nosotros</h2>
+      <p>Somos un taller creativo dedicado a la realización escénica. Aquí puedes ampliar la información de la empresa, equipo y trayectoria.</p>
+    </div>
+  </section>
+
+  <!-- Legal (placeholder) -->
+  <section id="legal" class="py-12 bg-black border-t border-zinc-800/50">
+    <div class="container mx-auto px-4 text-zinc-500">
+      <h2 class="text-2xl font-bold mb-4">Legal</h2>
+      <p>Aviso Legal, Política de Privacidad y Cookies disponibles aquí.</p>
+    </div>
+  </section>
+
+  <!-- === Portfolio hover enhancement === -->
+  <!-- Flecha de navegación arriba/abajo -->
+  <button id="nav-arrow" class="fixed right-6 bottom-6 z-50 w-12 h-12 bg-black/80 border border-zinc-700 text-red-400 hover:bg-red-600 hover:text-white rounded-full flex items-center justify-center shadow-lg transition-transform" aria-label="Ir abajo/arriba" title="Ir abajo">
+    <svg id="nav-arrow-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 transform transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+    </svg>
+  </button>
+
+  <style>
+    .group {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .group:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.35);
+    }
+    .group img {
+      transition: transform 0.4s ease;
+    }
+    .group:hover img {
+      transform: scale(1.06);
+    }
+  </style>
+  <script>
+    (function(){
+      const btn = document.getElementById('nav-arrow');
+      const icon = document.getElementById('nav-arrow-icon');
+      const target = document.getElementById('portfolio');
+      function update(){
+        if(window.scrollY > 150){
+          btn.title = 'Ir arriba';
+          icon.style.transform = 'rotate(180deg)';
+          btn.dataset.state='up';
+        } else {
+          btn.title = 'Ir al portafolio';
+          icon.style.transform = 'rotate(0deg)';
+          btn.dataset.state='down';
+        }
+      }
+      window.addEventListener('scroll', update);
+      document.addEventListener('DOMContentLoaded', update);
+      btn.addEventListener('click', function(){
+        if(btn.dataset.state === 'up'){
+          window.scrollTo({top:0,behavior:'smooth'});
+        } else {
+          if(target) target.scrollIntoView({behavior:'smooth'});
+          else window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'});
+        }
+      });
+    })();
+  </script>
+  <script>
+    // Fallback: replace broken images with a local fallback to avoid visual gaps
+    (function(){
+      const fallback = '/img/fondo1.jpg';
+      document.querySelectorAll('img').forEach(img=>{
+        img.addEventListener('error', function(){
+          if(this.src && !this.dataset._replaced){
+            this.dataset._replaced = '1';
+            this.src = fallback;
+          }
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
